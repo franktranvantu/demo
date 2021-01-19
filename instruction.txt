@@ -1,0 +1,4 @@
+1. mvn clean install
+2. docker-compose build
+3. docker-compose up
+4. Go to url: localhost:8080

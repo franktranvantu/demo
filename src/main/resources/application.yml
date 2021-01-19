@@ -1,13 +1,18 @@
-server:
-  port: 9000
 app:
   datasource:
-    jdbc-url: jdbc:mysql://172.21.3.49:3306/lab2
-    username: bean
-    password: beandev@123
+    jdbc-url: jdbc:postgresql://postgresqldb:5432/lab2
+    username: postgres
+    password: postgres
+
+
 spring:
-  profiles:
-    active: @spring.profiles.active@
   jpa:
+    show-sql: true
     hibernate:
       ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        jdbc:
+          lob:
+            non_contextual_creation: true
