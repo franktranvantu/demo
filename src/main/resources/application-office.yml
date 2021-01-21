@@ -1,6 +1,6 @@
 app:
   datasource:
-    jdbc-url: jdbc:mysql://172.21.3.49:3306/lab2
+    jdbc-url: jdbc:mysql://localhost:3306/lab2
     username: bean
     password: beandev@123
 
