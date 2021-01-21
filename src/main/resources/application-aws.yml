@@ -1,8 +1,11 @@
+server:
+  port: 5000
+
 app:
   datasource:
-    jdbc-url: jdbc:mysql://lab2.c3hm0zwlqneg.ap-southeast-1.rds.amazonaws.com:3306/lab2
-    username: admin
-    password: password
+    jdbc-url: jdbc:postgresql://fullstackspringbootdb.c3hm0zwlqneg.ap-southeast-1.rds.amazonaws.com:5432/lab2
+    username: postgres
+    password: postgres
 
 spring:
   profiles:
@@ -11,6 +14,3 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-
-server:
-  port: 5000

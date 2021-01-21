@@ -135,7 +135,7 @@
 			</build>
 			<properties>
 				<spring.profiles.active>
-					aws
+					home
 				</spring.profiles.active>
 			</properties>
 		</profile>
