@@ -4,7 +4,11 @@ app:
     username: postgres
     password: postgres
 
+
+
 spring:
+  profiles:
+    active: @spring.profiles.active@
   jpa:
     show-sql: true
     hibernate:

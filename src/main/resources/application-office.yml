@@ -5,6 +5,8 @@ app:
     password: beandev@123
 
 spring:
+  profiles:
+    active: @spring.profiles.active@
   jpa:
     show-sql: true
     hibernate:
