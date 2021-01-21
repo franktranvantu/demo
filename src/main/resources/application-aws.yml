@@ -1,8 +1,8 @@
 app:
   datasource:
-    jdbc-url: jdbc:mysql://172.21.3.49:3306/lab2
-    username: bean
-    password: beandev@123
+    jdbc-url: jdbc:mysql://lab2.c3hm0zwlqneg.ap-southeast-1.rds.amazonaws.com:3306/lab2
+    username: admin
+    password: password
 
 spring:
   profiles:
@@ -13,4 +13,4 @@ spring:
       ddl-auto: update
 
 server:
-  port: 9000
+  port: 5000

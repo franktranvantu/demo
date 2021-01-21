@@ -71,7 +71,7 @@
 
 	<profiles>
 		<profile>
-			<id>docker</id>
+			<id>demo</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -135,12 +135,12 @@
 			</build>
 			<properties>
 				<spring.profiles.active>
-					office
+					aws
 				</spring.profiles.active>
 			</properties>
 		</profile>
 		<profile>
-			<id>office</id>
+			<id>java-8</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -212,7 +212,7 @@
 			</build>
 			<properties>
 				<spring.profiles.active>
-					office
+					aws
 				</spring.profiles.active>
 			</properties>
 		</profile>
